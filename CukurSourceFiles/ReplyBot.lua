@@ -31,7 +31,7 @@ end
 Dev_Basha(msg.chat_id_, msg.id_, 1,rd, 1, 'html')
 end
 if text == 'دي' or text == 'ديي' or text == 'دي بابه' then 
-CukurSourceTEAM =  "آخلُِآقٌڪڪ لُِڪڪ 𖠙 😒🔪"
+CukurSourceTEAM =  "اخلاقك بيب 🌝♥️"
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
 return false
 end
