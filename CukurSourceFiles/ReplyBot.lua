@@ -2,36 +2,8 @@ local function Reply(msg)
 local text = msg.content_.text_
 if ChatType == 'sp' or ChatType == 'gp'  then
 if not DevBasha:get(CukurSource..'Basha:Lock:Reply'..msg.chat_id_) then
-if text == "انجب" or text == "نجب" or text == "انجبي" or text == "نجبي" or text == "انجبو" or text == "نجبو" then
-if SudoId(msg.sender_user_id_) then
-rd = 'ﭑ‌‏لمبرمج مـﭑ‌‏ل اني هيني شڪد متࢪيد حب 🥲♥️'
-elseif SudoBot(msg.sender_user_id_) then
-rd = 'احترم نفسكك لا عبالكك رافعيك مطور ، 🖕🏿♥️'
-elseif ManagerAll(msg.sender_user_id_) then
-rd = 'حبيبي راح اسامحكك لان مدير وع راسي ، 🖐🏿♥️'
-elseif AdminAll(msg.sender_user_id_) then
-rd = 'راح اسامحكك هلمره لانك ادمن ، ☝🏿♥️'
-elseif VipAll(msg.sender_user_id_) then
-rd = 'راح احترمكك تره بس هلمره لانك مميز عندي ، ☝🏿♥️'
-elseif BashaConstructor(msg.sender_user_id_, msg.chat_id_) then
-rd = 'تاج راسيي غير انت منشئ المجموعه ،🖐🏿♥️'
-elseif Constructor(msg.sender_user_id_, msg.chat_id_) then
-rd = 'تاج راسيي انت المنشئ الاساسي ،🖐🏿♥️'
-elseif BasicConstructor(msg.sender_user_id_, msg.chat_id_) then
-rd = 'حبيبي المنشئ استقبلها منكك ،👍🏿♥️'
-elseif Manager(msg.sender_user_id_, msg.chat_id_) then
-rd = 'حبيبي راح اسامحكك لان مدير وع راسي ، 🖐🏿♥️'
-elseif Admin(msg.sender_user_id_, msg.chat_id_) then
-rd = 'راح اسامحكك هلمره لانك ادمن ، ☝🏿♥️'
-elseif VipMem(msg.sender_user_id_, msg.chat_id_) then
-rd = 'راح احترمكك تره بس هلمره لانك مميز عندي ، ☝🏿♥️'
-else
-rd = 'لكك هوه انت عضو وجاي تغلط ؟، 🖕🏿♥️'
-end
-Dev_Basha(msg.chat_id_, msg.id_, 1,rd, 1, 'html')
-end
 if text == 'دي' or text == 'ديي' or text == 'دي بابه' then 
-CukurSourceTEAM =  "آخلُِآقٌڪڪ لُِڪڪ 𖠙 😒🔪"
+CukurSourceTEAM =  "دي انت"
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
 return false
 end
