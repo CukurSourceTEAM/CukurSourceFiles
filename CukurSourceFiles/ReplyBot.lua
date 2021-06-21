@@ -4,29 +4,29 @@ if ChatType == 'sp' or ChatType == 'gp'  then
 if not DevBasha:get(CukurSource..'Basha:Lock:Reply'..msg.chat_id_) then
 if text == "انجب" or text == "نجب" or text == "انجبي" or text == "نجبي" or text == "انجبو" or text == "نجبو" then
 if SudoId(msg.sender_user_id_) then
-rd = 'مطوريي اغلط شكد متريد نورتنه ، ♥️💪🏿'
+rd = 'ﭑ‌‏لمبرمج مـﭑ‌‏ل اني هيني شڪد متࢪيد حب 🥲♥️'
 elseif SudoBot(msg.sender_user_id_) then
-rd = 'احترم نفسكك لا عبالكك رافعيك مطور ، 🖕🏿♥️'
+rd = 'ﭑ‌‏حتࢪم نفسڪ مو ࢪافعيڪ مطوࢪ وتشمࢪ 🙂♥️'
 elseif ManagerAll(msg.sender_user_id_) then
-rd = 'حبيبي راح اسامحكك لان مدير وع راسي ، 🖐🏿♥️'
+rd = 'ﭑ‌‏حتࢪم نفسڪ مو ࢪافعيڪ مديࢪ وتشمࢪ 🙂♥️'
 elseif AdminAll(msg.sender_user_id_) then
-rd = 'راح اسامحكك هلمره لانك ادمن ، ☝🏿♥️'
+rd = 'ﭑ‌‏حتࢪم نفسڪ مو ࢪافعيڪ ادمن وتشمࢪ 🙂♥️'
 elseif VipAll(msg.sender_user_id_) then
-rd = 'راح احترمكك تره بس هلمره لانك مميز عندي ، ☝🏿♥️'
+rd = 'ﭑ‌‏حتࢪم نفسڪ مو ࢪافعيڪ مميز وتشمࢪ 🙂♥️'
 elseif BashaConstructor(msg.sender_user_id_, msg.chat_id_) then
-rd = 'تاج راسيي غير انت منشئ المجموعه ،🖐🏿♥️'
+rd = 'منشئ المجموعة تاجراسي حب 🥲♥️'
 elseif Constructor(msg.sender_user_id_, msg.chat_id_) then
-rd = 'تاج راسيي انت المنشئ الاساسي ،🖐🏿♥️'
+rd = 'ﭑ‌‏حتࢪم نفسڪ مو ࢪافعيڪ منشئ اساسي وتشمࢪ 🙂♥️'
 elseif BasicConstructor(msg.sender_user_id_, msg.chat_id_) then
-rd = 'حبيبي المنشئ استقبلها منكك ،👍🏿♥️'
+rd = 'ﭑ‌‏حتࢪم نفسڪ مو ࢪافعيڪ منشئ وتشمࢪ 🙂♥️'
 elseif Manager(msg.sender_user_id_, msg.chat_id_) then
-rd = 'حبيبي راح اسامحكك لان مدير وع راسي ، 🖐🏿♥️'
+rd = 'ﭑ‌‏حتࢪم نفسڪ مو ࢪافعيڪ مدير وتشمࢪ 🙂♥️'
 elseif Admin(msg.sender_user_id_, msg.chat_id_) then
-rd = 'راح اسامحكك هلمره لانك ادمن ، ☝🏿♥️'
+rd = 'ﭑ‌‏حتࢪم نفسڪ مو ࢪافعيڪ ادمن وتشمࢪ 🙂♥️'
 elseif VipMem(msg.sender_user_id_, msg.chat_id_) then
-rd = 'راح احترمكك تره بس هلمره لانك مميز عندي ، ☝🏿♥️'
+rd = 'ﭑ‌‏حتࢪم نفسڪ مو ࢪافعيڪ مميز وتشمࢪ 🙂♥️'
 else
-rd = 'لكك هوه انت عضو وجاي تغلط ؟، 🖕🏿♥️'
+rd = 'هو انت ڪلك عضو وتشمر ؟ 🥲😂'
 end
 Dev_Basha(msg.chat_id_, msg.id_, 1,rd, 1, 'html')
 end
@@ -36,39 +36,29 @@ Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md')
 return false
 end
 if text == 'السلام عليكم' or text == 'سلام عليكم' then 
-CukurSourceTEAM =  "ياھَہّلْاا ۅﻋ̝̚لْيڪْم الْﺳ̭͠ لْام 𖠙 🤤♥️"
-Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
-return false
-end
-if text == '😭💔' or text == '😭😭' or text == '😭😭😭' or text == '😿💔' or text == '😭😭😭' or text == '😭😭😭😭' then 
-CukurSourceTEAM =  "مآآعٍآشُ آلُِي يزعٍلُِڪڪ 𖠙 😏♥️"
-Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
-return false
-end
-if text == '🌚💔' or text == '💔🌚' or text == '🚶‍♂💔' or text == '💔' or text == '😔💔' or text == '🚶‍♀💔' or text == '😭' then 
-CukurSourceTEAM =  "شبّيي اﻟ̣̣פﻟ̣̣و 𖠙 😿💔"
+CukurSourceTEAM =  "- ۅعليَڪمَ ، ڪلَ لههلةه ، ♥️."
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
 return false
 end
 if text == 'باي' or text == 'بااي' or text == 'اروح' or text == 'اروح احسن' or text == 'اولي احسن' or text == 'راح اروح' or text == 'باي انام' then 
-CukurSourceTEAM =  "أُرٌجُعُ عٍيدِهآآ مٍوو تنِْسةه 𖠙 🤤♥️"
+CukurSourceTEAM =  ""- ۅَتعۅفنيَ ؟." "
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
 return false
 end
 if text == 'هلو' or text == 'هلاو' or text == 'هلا' or text == 'هلاوو' or text == 'هيلاو' or text == 'هيلاوو' or text == 'هلاا' then 
-local CukurSourceTEAM = {"اࠗط็لق֯ق֯ هٞللاࠗ୨و 𖠙 🤤♥️" ,"هۂَلاا نۨہٰورتت يعمۘري 𖠙 🤤♥️" } 
+local CukurSourceTEAM = {"-ۿلةهِ يبعدِيّ ، 💞💞." } 
 DevBasha2 = math.random(#CukurSourceTEAM) 
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM[DevBasha2] , 1, 'md') 
 return false
 end
-if text == 'شونك' or text == 'شونج' or text == 'شلونك' or text == 'شلونج' or text == 'شونكم' or text == 'شلونكم' or text == 'شلخبار' or text == 'شلون الاخبار' or text == 'شخبارك' then 
-local CukurSourceTEAM = {"ماﺷ͠ يةھَہّ يﻋ̝̚مريي ۅاﻧﺗ̲ت 𖠙 🤤♥️" ,"الحۡمۘدللهۂَ ٰوانۨہتت 𖠙 🤤♥️","تمۘامۘ عمۘري ٰوانۨہتت 𖠙 🤤♥️"} 
+if text == 'شخباركمم' or text == 'شونجن' or text == 'شلونكمم' or text == 'شلونجن' or text == 'شونكم' or text == 'شلونكم' or text == 'شلخبار' or text == 'شلون الاخبار' or text == 'شخباركم' then 
+local CukurSourceTEAM = {"- ﭑلحمدللةهِ ، وَنتةه يروَحي🥺♥️♥️  ."} 
 DevBasha2 = math.random(#CukurSourceTEAM) 
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM[DevBasha2] , 1, 'md') 
 return false
 end
-if text == 'وينك' or text == 'وينج' then
-CukurSourceTEAM =  "مْوٌجہوٌدِ يہمْگُ يحلوُ 𖠙 😉♥️"
+if text == 'وينجن' or text == 'وينكم' then
+CukurSourceTEAM =  "-موَ بعَينڪۃ ، شنيَ ، 🌝🌝."
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
 return false
 end
@@ -78,27 +68,22 @@ Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md')
 return false
 end
 if text == 'نايمين' or text == 'ميتين' then
-CukurSourceTEAM =  "طُآمسين ووعٍيوونڪ 𖠙 😪🖤ۦ"
+CukurSourceTEAM =  "-موَ بعَينڪۃ ، شنيَ ، 🌝🌝."
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
 return false
 end
 if text == 'هلوباي' or text == 'هلو باي' then  
-CukurSourceTEAM =  "شحۡسۜيت مۘنۨہ هيجۚ ּكتبت ؟ 🌝♥️"
+CukurSourceTEAM =  "شحسيت مِہטּ هيـج ڪتبت ؟ 🥲😂"
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
 return false
 end
-if text == 'اكلك' or text == 'اكلج' or text == 'اكلكم' then 
-CukurSourceTEAM =  "ڪوولُِ مآڪوولُِ لُِآحٍدِ 𖠙 😉♥️"
+if text == 'اكللكم' or text == 'اكلجن' or text == 'اكلكم' then 
+CukurSourceTEAM =  "ڪول ؏ـمري 🥺💘"
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md')
 return false
 end
-if text == 'فرخ' then
-CukurSourceTEAM =  "ٰوينۨہهۂَ خۡل احۡصرهۂَ 𖠙 😹♥️" 
-Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
-return false
-end
-if text == 'سورس باشا' or text == 'سورس الحفرة' or text == 'سورس الحفرة الاصلي' or text == 'سورس زربه' or text == 'السورس زربه' or text == 'سورس عاوي' or text == 'السورس عاوي' then 
-CukurSourceTEAM =  "لُِآ سوورس خآلُِتڪ دِي لُِڪ 𖠙 😒🔪" 
+if text == 'سورس خرا' or text == 'سورس زك' or text == 'انكس سورس' or text == 'سورس زربه' or text == 'السورس زربه' or text == 'سورس عاوي' or text == 'السورس عاوي' then 
+CukurSourceTEAM =  "ماكو شخص افضل من شخص حب ♥️" 
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md')
 return false
 end
