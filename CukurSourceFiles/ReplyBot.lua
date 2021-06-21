@@ -41,7 +41,7 @@ Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md')
 return false
 end
 if text == 'باي' or text == 'بااي' or text == 'اروح' or text == 'اروح احسن' or text == 'اولي احسن' or text == 'راح اروح' or text == 'باي انام' then 
-CukurSourceTEAM =  ""- ۅَتعۅفنيَ ؟." "
+CukurSourceTEAM =  "- ۅَتعۅفنيَ ؟."
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md') 
 return false
 end
