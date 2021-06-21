@@ -60,7 +60,7 @@ Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md')
 return false
 end
 if text == 'اكلك' or text == 'اكلج' or text == 'اكلكم' then 
-CukurSourceTEAM =  "كول عمري ♥️"
+CukurSourceTEAM =  "كول"
 Dev_Basha(msg.chat_id_, msg.id_, 1, CukurSourceTEAM, 1, 'md')
 return false
 end
