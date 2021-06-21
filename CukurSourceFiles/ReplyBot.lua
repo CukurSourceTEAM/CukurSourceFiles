@@ -4,7 +4,7 @@ if ChatType == 'sp' or ChatType == 'gp'  then
 if not DevBasha:get(CukurSource..'Basha:Lock:Reply'..msg.chat_id_) then
 if text == "انجب" or text == "نجب" or text == "انجبي" or text == "نجبي" or text == "انجبو" or text == "نجبو" then
 if SudoId(msg.sender_user_id_) then
-rd = 'مطوريي اغلط شكد متريد نورتنه ، ♥️💪🏿'
+rd = 'ﭑ‌‏لمبرمج مـﭑ‌‏ل اني هيني شڪد متࢪيد حب 🥲♥️'
 elseif SudoBot(msg.sender_user_id_) then
 rd = 'احترم نفسكك لا عبالكك رافعيك مطور ، 🖕🏿♥️'
 elseif ManagerAll(msg.sender_user_id_) then
