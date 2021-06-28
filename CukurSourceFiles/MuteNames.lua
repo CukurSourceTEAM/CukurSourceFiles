@@ -12,12 +12,12 @@ if DevBasha:get(CukurSource.."Basha:Lock:MuteNames"..msg.chat_id_) then
 if Manager(msg) then
 if text and (text:match("^كتم (.*)$") or text:match("^كتم الاسم (.*)$")) then
 local MuteName = text:match("^كتم اسم (.*)$") or text:match("^كتم الاسم (.*)$")
-send(msg.chat_id_, msg.id_, '✟︙تم كتم الاسم ↫ '..MuteName)
+send(msg.chat_id_, msg.id_, '✟︙تم كتم الاسم ⇠ '..MuteName)
 DevBasha:sadd(CukurSource.."Basha:Mute:Names"..msg.chat_id_, MuteName)
 end
 if text and (text:match("^الغاء كتم (.*)$") or text:match("^الغاء كتم الاسم (.*)$")) then
 local UnMuteName = text:match("^الغاء كتم اسم (.*)$") or text:match("^الغاء كتم الاسم (.*)$")
-send(msg.chat_id_, msg.id_, '✟︙تم الغاء كتم الاسم ↫ '..UnMuteName)
+send(msg.chat_id_, msg.id_, '✟︙تم الغاء كتم الاسم ⇠ '..UnMuteName)
 DevBasha:srem(CukurSource.."Basha:Mute:Names"..msg.chat_id_, UnMuteName)
 end
 end
@@ -27,7 +27,7 @@ send(msg.chat_id_, msg.id_, "✟︙تم مسح الاسماء المكتومه")
 end
 if text == "الاسماء المكتومه" and Constructor(msg) then
 local AllNames = DevBasha:smembers(CukurSource.."Basha:Mute:Names"..msg.chat_id_)
-Text = "\n✟︙قائمة الاسماء المكتومه ↫ ⤈\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+Text = "\n✟︙قائمة الاسماء المكتومه ⇠ ⇣\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 for k,v in pairs(AllNames) do
 Text = Text..""..k.."~ : (["..v.."])\n"
 end

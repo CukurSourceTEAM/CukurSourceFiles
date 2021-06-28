@@ -12,7 +12,7 @@ local Added_Me = DevBasha:get(CukurSource.."Who:Added:Me"..msg.chat_id_..':'..ms
 if Added_Me then 
 tdcli_function ({ID = "GetUser",user_id_ = Added_Me},function(extra,result,success)
 local Name = '['..result.first_name_..'](tg://user?id='..result.id_..')'
-Text = '✟︙*الشخص الذي قام باضافتك هو* ↫ '..Name
+Text = '✟︙*الشخص الذي قام باضافتك هو* ⇠ '..Name
 SendText(msg.chat_id_,Text,msg.id_/2097152/0.5,'md')
 end,nil)
 else

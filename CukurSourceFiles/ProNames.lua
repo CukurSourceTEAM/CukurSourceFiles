@@ -5,7 +5,7 @@ if text and (text:match("^وضع توحيد (.*)$") or text:match("^ضع توح�
 if Manager(msg) then
 if DevBasha:get(CukurSource.."Basha:Lock:ProNames"..msg.chat_id_) then
 local Txt = text:match("^وضع توحيد (.*)$") or text:match("^ضع توحيد (.*)$")
-send(msg.chat_id_, msg.id_,'✟︙تم تعيين ↫ '..Txt..' كتوحيد للمجموعه')
+send(msg.chat_id_, msg.id_,'✟︙تم تعيين ⇠ '..Txt..' كتوحيد للمجموعه')
 DevBasha:set(CukurSource.."Basha:ProNames:Txt"..msg.chat_id_,Txt)
 else
 send(msg.chat_id_, msg.id_,'✟︙ميزة التوحيد معطله يرجى تفعيلها')
@@ -16,7 +16,7 @@ if text and (text:match("^تعين عدد الكتم (.*)$") or text:match("^ت�
 if Manager(msg) then
 if DevBasha:get(CukurSource.."Basha:Lock:ProNames"..msg.chat_id_) then
 local Num = text:match("^تعين عدد الكتم (.*)$") or text:match("^تعيين عدد الكتم (.*)$")
-send(msg.chat_id_, msg.id_,'✟︙تم تعيين  ↫ '..Num..' عدد الكتم')
+send(msg.chat_id_, msg.id_,'✟︙تم تعيين  ⇠ '..Num..' عدد الكتم')
 DevBasha:set(CukurSource.."Basha:ProNames:Num"..msg.chat_id_,Num)
 else
 send(msg.chat_id_, msg.id_,'✟︙ميزة التوحيد معطله يرجى تفعيلها')
@@ -28,7 +28,7 @@ if text == "التوحيد" or text == "توحيد" then
 if DevBasha:get(CukurSource.."Basha:ProNames:Txt"..msg.chat_id_) then
 local ProNamesTxt = DevBasha:get(CukurSource.."Basha:ProNames:Txt"..msg.chat_id_)
 local ProNamesNum = DevBasha:get(CukurSource.."Basha:ProNames:Num"..msg.chat_id_) or 5
-send(msg.chat_id_, msg.id_,'✟︙التوحيد هو ↫ '..ProNamesTxt..'\n✟︙عدد المحاولات للكتم ↫ '..ProNamesNum)
+send(msg.chat_id_, msg.id_,'✟︙التوحيد هو ⇠ '..ProNamesTxt..'\n✟︙عدد المحاولات للكتم ⇠ '..ProNamesNum)
 else
 send(msg.chat_id_, msg.id_,'✟︙لم يتم تعيين توحيد للمجموعه')
 end
@@ -46,10 +46,10 @@ local UserNum = DevBasha:get(CukurSource.."Basha:ProNames:UserNum"..msg.chat_id_
 if (tonumber(UserNum) == tonumber(ProNamesTxt) or tonumber(UserNum) > tonumber(ProNamesTxt)) then 
 DevBasha:sadd(CukurSource..'Basha:Muted:'..msg.chat_id_, msg.sender_user_id_)
 DevBasha:del(CukurSource.."Basha:ProNames:UserNum"..msg.chat_id_..msg.sender_user_id_)
-send(msg.chat_id_, msg.id_,"✟︙العضو ↫ ["..result.first_name_.."](https://t.me/"..(result.username_ or "Dev_Prox")..")\n✟︙تم كتمه بسبب عدم وضع توحيد المجموعه بجانب اسمه يجب عليه وضع التوحيد وسوف يتم الغاء كتمه تلقائيا")
+send(msg.chat_id_, msg.id_,"✟︙العضو ⇠ ["..result.first_name_.."](https://t.me/"..(result.username_ or "D666N")..")\n✟︙تم كتمه بسبب عدم وضع توحيد المجموعه بجانب اسمه يجب عليه وضع التوحيد وسوف يتم الغاء كتمه تلقائيا")
 else 
 DevBasha:incrby(CukurSource.."Basha:ProNames:UserNum"..msg.chat_id_..msg.sender_user_id_,1)
-send(msg.chat_id_, msg.id_, "✟︙عذرا عزيزي ↫ ["..result.first_name_.."](https://t.me/"..(result.username_ or "Dev_Prox")..")\n✟︙عليك وضع التوحيد ↫ `"..DevBasha:get(CukurSource.."Basha:ProNames:Txt"..msg.chat_id_).."` بجانب اسمك\n✟︙عدد المحاولات المتبقيه ↫ "..(tonumber(ProNamesTxt) - tonumber(UserNum)).."")
+send(msg.chat_id_, msg.id_, "✟︙عذرا عزيزي ⇠ ["..result.first_name_.."](https://t.me/"..(result.username_ or "D666N")..")\n✟︙عليك وضع التوحيد ⇠ `"..DevBasha:get(CukurSource.."Basha:ProNames:Txt"..msg.chat_id_).."` بجانب اسمك\n✟︙عدد المحاولات المتبقيه ⇠ "..(tonumber(ProNamesTxt) - tonumber(UserNum)).."")
 end
 end
 end

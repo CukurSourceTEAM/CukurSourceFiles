@@ -108,7 +108,7 @@ local File = io.open('./'..CukurSource..'.json', "w")
 File:write(GetJson)
 File:close()
 local belal = 'https://api.telegram.org/bot' .. TokenBot .. '/sendDocument'
-local curl = 'curl "' .. belal .. '" -F "chat_id='..Bilal..'" -F "document=@'..CukurSource..'.json' .. '" -F "caption=✟︙يحتوي الملف على ↫ '..#list..' مجموعه"'
+local curl = 'curl "' .. belal .. '" -F "chat_id='..Bilal..'" -F "document=@'..CukurSource..'.json' .. '" -F "caption=✟︙يحتوي الملف على ⇠ '..#list..' مجموعه"'
 io.popen(curl)
 io.popen('fm -fr '..CukurSource..'.json')
 DevBasha:set(CukurSource.."Basha:AutoFile:Time",os.date("%x"))
